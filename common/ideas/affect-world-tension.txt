@@ -1,0 +1,24 @@
+ideas = {
+
+	political_advisor = {
+		reduce_world_tension = {
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+
+			modifier = {
+				democratic_drift = 0.1
+				democratic_acceptance = 85
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+}
