@@ -1,0 +1,6 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_reduce_world_tension"
+		texturefile = "gfx/interface/ideas/idea_reduce_world_tension.dds"
+	}
+}
