@@ -6,7 +6,9 @@ country_event = {
 	mean_time_to_happen = { days = 30 }
 	hidden = yes
 
-	is_triggered_only = yes
+	trigger = {
+		has_idea = reduce_world_tension
+	}
 	
 	title = cor_sta.1.t
 	desc = cor_sta.1.d
