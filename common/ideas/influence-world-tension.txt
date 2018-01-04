@@ -12,7 +12,42 @@ ideas = {
 			picture = reduce_world_tension
 
 			ai_will_do = {
-				factor = 0
+				factor = 1000
+
+#				modifier = {
+#					factor = 0
+#
+#					has_government = democratic
+#				}
+#
+##				modifier = {
+##					factor = 20
+##
+##					OR = { 
+##						has_government = fascism
+##						has_government = communism
+##					}
+##
+##					has_added_tension_amount > 20
+##					threat > 0.5
+##
+##					NOT = {
+##						has_added_tension_amount > 0.4
+##						threat > 0.9
+##					}
+##				}
+#
+				modifier = {
+					factor = 400
+
+					OR = { 
+						has_government = fascism
+						has_government = communism
+					}
+
+					has_added_tension_amount > 40
+					threat > 0.9
+				}
 			}
 		}
 }
