@@ -1,0 +1,20 @@
+﻿add_namespace = influence_world_tension
+
+country_event = {
+	id = influence_world_tension.1
+	fire_only_once = no
+	mean_time_to_happen = { days = 30 }
+	hidden = yes
+
+	is_triggered_only = yes
+	
+	title = cor_sta.1.t
+	desc = cor_sta.1.d
+
+	option = {
+		name = germany.22.a
+		add_named_threat = { threat = -0.2 name = influence_world_tension.1.t }
+
+	}
+
+}

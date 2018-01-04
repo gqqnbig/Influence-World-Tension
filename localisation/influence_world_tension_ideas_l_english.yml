@@ -1,3 +1,4 @@
 ﻿l_english:
  reduce_world_tension:0 "减少世界紧张度"
  reduce_world_tension_desc:0 "通过外交行动每个月减少0.2的世界紧张度"
+ influence_world_tension.1.t:0 "世界和平论" 
